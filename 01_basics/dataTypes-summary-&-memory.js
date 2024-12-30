@@ -38,3 +38,35 @@ const myFuncton = function () {
 let myId = 5101054
 myId = "5101054"
 myId = true
+
+
+
+//++++++++++++++++++++++++++++++++++++++++
+
+// Memory
+// Stack (primitive), Heap (non-primitive)
+
+// use stack
+let myGmail_ID = "uthoaimarma597@gmail.com"
+
+let myNew_Gmail_ID = myGmail_ID
+myNew_Gmail_ID = "uthoaicodedevs@gmail.com"
+console.log(myGmail_ID);
+console.log(myNew_Gmail_ID);
+
+
+// use heap
+let userOne = {
+    phone: "01828730300"
+}
+
+let userTwo = userOne
+userTwo.phone = "01300040509"
+
+console.log(userOne.phone);
+console.log(userTwo.phone);
+
+
+
+
+
