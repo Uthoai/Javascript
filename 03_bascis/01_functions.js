@@ -52,12 +52,34 @@
 // console.log(calculateCartPrice(200,300,400,500,600));       //[ 400, 500, 600 ]
 
 
-const user = {
-    user: "Uthoai",
-    id: 5101054
+// const user = {
+//     user: "Uthoai",
+//     id: 5101054
+// }
+
+// function printUserData(anyObject){
+//     console.log(`User Name: ${anyObject.user} \nID: ${anyObject.id}`);
+// }
+// printUserData(user)
+
+
+
+
+/*
+console.log(addOne(5));     
+
+function addOne(num) {
+    return num + 1
 }
 
-function printUserData(anyObject){
-    console.log(`User Name: ${anyObject.user} \nID: ${anyObject.id}`);
+// console.log(addTwo(5));     ////ReferenceError: Cannot access 'addTwo' before initialization
+
+const addTwo = function(num) {
+    return num + 2
 }
-printUserData(user)
+
+console.log(addTwo(5));
+*/
+
+
+
