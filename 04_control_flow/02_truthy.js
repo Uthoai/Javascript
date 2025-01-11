@@ -32,3 +32,29 @@ userEmail = ""
 //     console.log("Object is Empty")
 // }
 
+
+
+
+
+// Nullish Coalescing Operator (??): null undefined
+function dbData() {
+    return "Don't have DB data";
+}
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 15
+// val1 = null ?? 10 ?? 20
+
+// val1 = null ?? dbData()
+// console.log(val1);
+
+
+
+// Terniary Operator
+// condition ? true : false
+// const iceTeaPrice = 150
+// iceTeaPrice <= 100 ? console.log("Buy") : console.log("Don't Buy");
+
+
+

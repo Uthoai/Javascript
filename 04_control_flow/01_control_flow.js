@@ -37,3 +37,9 @@ let  balance = 1000
 // }
 
 
+
+// let loggedInFromGoogle = false
+// let loggedInFromEmail = true
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//     console.log("User is LoggedIn...")
+// }
